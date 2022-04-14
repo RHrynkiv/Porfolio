@@ -1,0 +1,16 @@
+@import '../../../common/styles/sass/mixins';
+@import '../../../common/styles/sass/variables';
+
+
+.more{
+
+    .moreBtn{
+        display: block;
+        position: relative;
+        @include text($primaryFontFamily, 800, 20px, 0.7);
+        text-decoration: none;
+        z-index: 2;
+    }
+}
+
+
