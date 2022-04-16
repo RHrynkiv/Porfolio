@@ -42,8 +42,9 @@
         &::after {
           position: absolute;
           content: '';
-          width: 420px;
+          width: 400px;
           height: 5px;
+          margin: 0 0 0 4.25px;
           background-color: $primarySecondColor;
           left: 0;
           bottom: 5px;

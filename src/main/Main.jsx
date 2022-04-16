@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './Main.module.scss';
 import styleContainer from '../common/styles/Container.module.scss';
-import vovaImage from '../assets/images/IMG_4802.JPG';
+import romaImage from '../assets/images/IMG_4802.JPG';
 import Fade from 'react-reveal/Fade';
 import ReactTypingEffect from 'react-typing-effect';
 import Tilt from 'react-tilt';
@@ -18,14 +18,13 @@ function Main() {
                         <h1>I am
                             <br/>
                             Roman Hrynkiv</h1>
-                        <p><ReactTypingEffect text={"I want to become Frontend Developer"}/></p>
+                        <p><ReactTypingEffect text={"Front-end Developer"}/></p>
                     </div>
 
                     <div className={style.photo}>
                         <Tilt className="Tilt" options={{max: 20, scale: 1.05,}}>
-                            <img src={vovaImage} alt=""/>
+                            <img src={romaImage} alt=""/>
                         </Tilt>
-                        <div className={style.border}></div>
                     </div>
 
                 </div>

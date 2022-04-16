@@ -3,6 +3,7 @@ import style from './Work.module.scss';
 import More from "./more/More";
 
 function Work(props) {
+    debugger
     return (
         <div className={style.work}>
             <div className={style.image} style={props.style}>
